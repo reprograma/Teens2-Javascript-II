@@ -28,7 +28,7 @@ Chegou o momento de conhecer o DOM e manipular a estrutura do HTML com Javascrip
 ---
 <h2 align="center">
   <br>
-  <img src="Img/javascript.png" alt="Front-End Checklist" width="180">
+  <img src="Img/javascript.png" alt="Front-End Checklist" width="260">
   <br>
 </h2>
 
@@ -46,7 +46,7 @@ Nesse tópico vamos abordar:
 
 <h2 align="center">
   <br>
-  <img src="Img/arvore_dom.png" alt="Front-End Checklist" width="380">
+  <img src="Img/arvore_dom.png" alt="Front-End Checklist" width="460">
   <br>
 </h2>
 

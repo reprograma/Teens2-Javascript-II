@@ -3,4 +3,3 @@
 //3- ligar o click 
   //3.1 - criar uma condicional que torna o gatinho visivel ou invisivel 
 
-
