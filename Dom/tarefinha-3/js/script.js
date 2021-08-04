@@ -5,14 +5,16 @@
 //2- ligar o click do botao 
 //3- prevenir o comportamento padrão do navegador quando clico   
 //4- trocar a palavra world pelo palavra digitada no input 
-  
 
+let input = document.querySelector('input')
+let world = document.querySelector('h2')
+let button = document.querySelector('#botao')
 
-// let input = document.querySelector('input')
+console.log(input, world, button)
 
-// let world = document.querySelector('h2')
+function cliquei(event) {
 
-// let button = document.querySelector('#botao')
-
-// console.log(input, world, button)
-
+        event.preventDefault() //Previnindo comportamento padrão (atualizar)
+      console.log('clicando meninas!!') 
+      world.innerHTML = input.value
+}

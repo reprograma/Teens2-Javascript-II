@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisando DOM</title>
+    <style>
+        body{
+            background-color: rgb(114, 9, 88);
+            color: rgb(255, 255, 255);
+            font: normal 18pt Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Revisando e entendendo DOM</h1>
+    <p>Aqui vai o resultado </p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JS!!</p>
+    <div>Clique em mim</div>
+
+    <script>
+        //acessando a tag e colocando em uma variavel
+        let p = document.getElementsByTagName('p')[0]
+        //escrever na tela
+        document.write(p.innerText)
+        //alterando a cor do p[0]
+        p.style.color = 'black'
+
+        //acessa o body e alterando o background
+        let corpo = document.body
+        corpo.style.background = 'blue'
+
+        let p2 = document.getElementsByTagName('p')[1]
+        alert(p2.innerText)
+
+
+    </script>
+</body>
+</html>
